@@ -23,15 +23,15 @@ defmodule OtelExportDemo.MixProject do
   defp deps do
     [
       {:opentelemetry_api,
-        github: "open-telemetry/opentelemetry-erlang",
-        sparse: "apps/opentelemetry_api",
-        override: true},
+       github: "open-telemetry/opentelemetry-erlang",
+       sparse: "apps/opentelemetry_api",
+       override: true},
       {:opentelemetry_exporter,
-        github: "open-telemetry/opentelemetry-erlang",
-        sparse: "apps/opentelemetry_exporter",
-        override: true},
+       github: "open-telemetry/opentelemetry-erlang",
+       sparse: "apps/opentelemetry_exporter",
+       override: true},
       {:opentelemetry,
-        github: "open-telemetry/opentelemetry-erlang", sparse: "apps/opentelemetry", override: true}
+       github: "open-telemetry/opentelemetry-erlang", sparse: "apps/opentelemetry", override: true}
     ]
   end
 end
